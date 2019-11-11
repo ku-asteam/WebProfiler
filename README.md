@@ -16,3 +16,7 @@ Navigation Prediction Model in WebProfiler is an implementation of *a*STEAM Proj
 * Prepare the preprocessed user interaction data in the `webprofiler` directory
 * Set the parameters for training, including deep learning model, range of random seeds, number of units/layers, learning rate, number of epochs, batch size, activation function, optimizer
 * Execute `run.py` to initiate iterative training and check the results for test set
+* An example of executing WebProfiler:
+```python
+print("hello");
+```
