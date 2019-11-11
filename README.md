@@ -7,30 +7,12 @@ Navigation Prediction Model in WebProfiler is an implementation of *a*STEAM Proj
 
 ## Requirements and Dependencies
 
-* *TensorFlow*: The versions above `1.14.0` are recommended
+* *TensorFlow*: A version above `1.14.0` is recommended
 * *User Interaction Data* after preprocessed and transformed into the form suitable for training prediction models
 * Other Python packages should be installed and imported properly
 
 ## Instructions
 
-* Build Instructions of `ccp-agent`
-  1. Open a terminal
-  2. Install the Go tools: Please refer <https://golang.org/doc/install>.
-  3. Following 'How to Write Go Code' <https://golang.org/doc/code.html>, organize your Go workspace
-  4. Go to `src` directory of your Go workspace: `cd $GOPATH/src`
-  5. Make directories `github.com/mit-nms`: `mkdir -p github.com/mit-nms`
-  6. Go to `mit-nms` directory: `cd github.com/mit-nms`
-  7. Clone `ccp-agent`'s Git repository: `git clone https://github.com/mit-nms/ccp`
-  8. Go to `ccp-agent`'s Git repository: `cd ccp`
-  9. Install required dependencies of `ccp-agent`: `go get ./...`
-  10. Build `ccp-agent`: `make`
-
-* Build Instructions of `ccp-chromium`
-  1. Open a terminal and go to an appropriate directory (We assume the directory is user's home directory `~`.)
-  2. Clone this Git repository: `git clone https://github.com/ku-asteam/ccp-chromium.git`
-  3. Go to the local Git repository: `cd ccp-chromium`
-  4. Build the code with `make`: `make all`
-
-* How to Run (In Case of TCP Reno Congestion Algorithm)
-  1. `$GOPATH/src/github.com/mit-nms/ccp/ccpl --datapath=udp --congAlg=reno`
-  2. `~/ccp-chromium/testccp`
+* Prepare the preprocessed user interaction data in the `webprofiler` directory
+* Set the parameters for training, including deep learning model, range of random seeds, number of units/layers, learning rate, number of epochs, batch size, activation function, optimizer
+* Execute `run.py` to initiate iterative training and check the results for test set
