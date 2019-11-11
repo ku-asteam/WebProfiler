@@ -1,5 +1,5 @@
 # WebProfiler
-Navigation Prediction Model in WebProfiler
+Navigation Prediction Model for General Web Applications
 
 ## Introduction
 
