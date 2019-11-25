@@ -45,9 +45,9 @@ Epoch 2: Batch Precision/Recall/F-measure: 0.350000/0.617647/0.446809, Validatio
 Epoch 3: Batch Precision/Recall/F-measure: 0.320000/0.585366/0.413793, Validation Precision/Recall/F-measure: 0.368348/0.636291/0.466589
 Epoch 4: Batch Precision/Recall/F-measure: 0.330000/0.596386/0.424893, Validation Precision/Recall/F-measure: 0.368348/0.636291/0.466589
 Epoch 5: Batch Precision/Recall/F-measure: 0.400000/0.666667/0.500000, Validation Precision/Recall/F-measure: 0.368348/0.636291/0.466589
-
+```
 ...
-
+```
 Epoch 100: Batch Precision/Recall/F-measure: 0.960000/0.986301/0.972973, Validation Precision/Recall/F-measure: 0.616685/0.828369/0.707023
    >>> The training and validation set precision/recall/f-measure values as epochs are stored in .\webprofiler\result\20191111_132326\42_gru_train-valid-accuracy.txt
    >>> The checkpoint for the trained model is stored in .\webprofiler\checkpoint\20191111_132326\42_my_gru_model_final.ckpt
